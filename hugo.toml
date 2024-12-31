@@ -1,0 +1,12 @@
+baseURL = 'https://example.com'
+languageCode = 'en-us'
+title = 'Lukas Elias The Developer'
+
+[[menu.main]]
+	name = 'Home'
+	url = '/'
+	weight = 1
+[[menu.main]]
+	name = 'Devlogs'
+	url = '/devlogs'
+	weight = 2
