@@ -2,6 +2,8 @@ baseURL = 'https://example.com'
 languageCode = 'en-us'
 title = 'Lukas Elias The Developer'
 
+summaryLength = 20
+
 [[menu.main]]
 	name = 'Home'
 	url = '/'
