@@ -31,16 +31,20 @@ body {
 	background: var(--Base);
 	color: var(--Text);
 	font-family: Mono;
+	min-height: 100vh;
+	min-height: 100dvh;
+	display: flex;
+	flex-direction: column;
 }
 
 nav > ul {
 	font-size: 1.25rem;
 	padding: 0.5em 0;
-	background: var(--Mantle);
 	display: flex;
 	justify-content: center;
 	list-style-type: none;
-	gap: 2em
+	gap: 2em;
+	background: var(--Mantle)
 }
 
 a {
@@ -55,4 +59,12 @@ a {
 	color: transparent;
 }
 
+header {
+	position: sticky;
+	top: 0;
+}
 
+main {
+	flex-grow: 1;
+	padding: 2rem 3rem;
+}

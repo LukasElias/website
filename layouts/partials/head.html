@@ -1,6 +1,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{{ .Site.Title }}</title>
+{{ if .Page.Title }}
+	<title>{{ .Page.Title }} - {{ .Site.Title }}</title>
+{{ else }}
+	<title>{{ .Site.Title }}</title>
+{{ end }}
 
 {{ $css_reset := resources.Get "css/reset.css" }}
 {{ $styles := resources.Get "css/main.css" }}

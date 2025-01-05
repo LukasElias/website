@@ -2,7 +2,7 @@ baseURL = 'https://example.com'
 languageCode = 'en-us'
 title = 'Lukas Elias The Developer'
 
-summaryLength = 20
+summaryLength = 5
 
 [[menu.main]]
 	name = 'Home'
@@ -12,3 +12,13 @@ summaryLength = 20
 	name = 'Devlogs'
 	url = '/devlogs'
 	weight = 2
+[[menu.main]]
+	name = 'About'
+	url = '/about'
+	weight = 3
+
+
+[[menu.footer]]
+	name = 'Email'
+	url = 'mailto:lukaslundmajland@gmail.com'
+	weight = 1
