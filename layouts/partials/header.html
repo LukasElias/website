@@ -1,5 +1,6 @@
-<nav>
-	<ul>
+<button class="menu-toggle" aria-label="Toggle menu">🍔</button>
+<nav class="header-nav">
+	<ul class="nav-links">
 		{{ range site.Menus.main }}
 		<li>
 			<a href="{{ .URL }}">{{ .Name }}</a>
@@ -7,3 +8,4 @@
 		{{ end }}
 	</ul>
 </nav>
+{{ partial "theme-selector.html" . }}

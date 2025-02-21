@@ -1,10 +1,10 @@
 <article>
-	<header>
+	<header class="summary-header">
 		<h2>{{ .Title }}</h2>
-		<span>{{ .PublishDate.Format "2 Jan, 2006" }}</span>
+		<span class="subtext">{{ .PublishDate.Format "2 Jan, 2006" }}</span>
 	</header>
 	{{ .Summary }}
-	<footer>
-		<a href="{{ .RelPermalink }}">Wanna read this&#63;&#63;&#63; Maybe</a>
+	<footer class="summary-footer">
+		<a href="{{ .RelPermalink }}">Wanna read this??? Maybe</a>
 	</footer>
 </article>

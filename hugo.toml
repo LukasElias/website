@@ -22,3 +22,19 @@ summaryLength = 5
 	name = 'Email'
 	url = 'mailto:lukaslundmajland@gmail.com'
 	weight = 1
+[[menu.footer]]
+	name = 'GitHub'
+	url = 'https://github.com/lukaselias'
+	weight = 2
+[[menu.footer]]
+	name = 'tetr.io'
+	url = 'https://ch.tetr.io/u/lion_lukas'
+	weight = 3
+[[menu.footer]]
+	name = 'Codepen'
+	url = 'https://codepen.io/LukasElias'
+	weight = 4
+[[menu.footer]]
+	name = 'Codepen'
+	url = 'https://codepen.io/LukasElias'
+	weight = 5

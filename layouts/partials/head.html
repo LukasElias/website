@@ -10,3 +10,6 @@
 {{ $styles := resources.Get "css/main.css" }}
 {{ $styles = slice $styles $css_reset | resources.Concat "css/bundle.css" | resources.Minify | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $styles.Permalink }}">
+
+{{ $js := resources.Get "js/theme.js" | resources.Minify | resources.Fingerprint }}
+<script src="{{ $js.Permalink }}" defer></script>
