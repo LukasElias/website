@@ -1,6 +1,5 @@
 +++
 date = '2025-01-04T11:47:22+01:00'
-draft = false
 title = "I'm Lukas Elias"
 layout = 'single'
 +++

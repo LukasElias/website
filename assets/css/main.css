@@ -36,6 +36,10 @@ main > article {
 	max-width: 800px;
 }
 
+main > article > *:not(header) {
+	padding-bottom: 1rem;
+}
+
 .subtext, h2, h3, h4, h5, h6 {
 	font-weight: bold;
 	color: var(--Subtext0)
@@ -119,6 +123,16 @@ main > article {
 }
 
 /* -----------------------Menu----------------------- */
+
+/* ---------------------Tooltip---------------------- */
+
+.tooltip {
+    border-bottom: 2px dotted var(--Blue);
+    cursor: help;
+    position: relative;
+}
+
+/* ---------------------Tooltip---------------------- */
 
 /* ---------------------Dropdown--------------------- */
 
