@@ -1,4 +1,4 @@
-baseURL = 'https://example.com'
+baseURL = 'http://127.0.0.1'
 languageCode = 'en-us'
 title = 'Lukas Elias The Developer'
 
@@ -16,7 +16,6 @@ summaryLength = 5
 	name = 'About'
 	url = '/about'
 	weight = 3
-
 
 [[menu.footer]]
 	name = 'Email'

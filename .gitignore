@@ -1,3 +1,5 @@
 .hugo_build.lock
 public/
 resources/
+cusdis_data/
+*.env
