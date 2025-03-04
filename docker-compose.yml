@@ -6,7 +6,7 @@ services:
       - .:/src
       - ./public/:/src/public
     restart: always
-    command: --watch
+    command: --watch --minify
   nginx:
     image: nginx:latest
     container_name: nginx
@@ -19,7 +19,7 @@ services:
       - hugo
     restart: always
   cusdis:
-    image: lukaselias/cusdis-arm:latest
+    image: lukaselias/cusdis-arm-special:latest
     container_name: cusdis
     env_file: 
       - secrets.env

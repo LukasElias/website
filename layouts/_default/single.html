@@ -4,6 +4,6 @@
 			<h1>{{ .Title }}</h1>
 		</header>
 		{{ .Content }}
+		{{ partial "cusdis.html" . }}
 	</article>
-	{{ partial "cusdis.html" . }}
 {{ end }}
