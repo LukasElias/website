@@ -127,7 +127,7 @@ main > article > :not(header) {
 /* ---------------------Tooltip---------------------- */
 
 .tooltip {
-	z-index: 0;
+	z-index: -1;
 	border-bottom: 2px dotted var(--Blue);
 	cursor: help;
 	position: relative;

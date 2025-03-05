@@ -2,6 +2,8 @@ baseURL = 'https://lukaselias.lundmajland.dk'
 languageCode = 'en-us'
 title = 'Lukas Elias The Developer'
 
+enableRobotsTXT = true
+
 summaryLength = 5
 
 [[menu.main]]
