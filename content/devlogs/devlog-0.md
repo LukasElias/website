@@ -15,7 +15,7 @@ So now here we are, in 2025, and I should do something about this idea my brain 
 
 ## How did I make it?
 
-This website is made with [hugo](https://gohugo.io). This is a static site generator (writtin in go btw), and sounds really fancy, but it's not as complicated than any JS framework today.
+This website is made with [hugo](https://gohugo.io). This is a static site generator (writtin in go btw), and sounds really fancy, but it's not as complicated as any JS framework today, since it's all just HTML.
 
 So the static site generator basically takes some files you write, and generates the static html files on the site, with a layout you create.
 
@@ -29,4 +29,8 @@ So in hugo, there's four main directories you write in:
 3. layouts/
 4. static/
 
-So the assets directory is the one you put image/css/javascript files, these files can then be processed by you, fx you could bundle all your js and css together so they are one big file. If you instead have files like robots.txt that's not supposed to be processed and just copied over to the public directory, you should put those files in the static directory. The content directory is for the content that's showing on the page. This is written in markdown files, if you've ever seen a git repo, you've probably seen a README.md file, which is just markdown. Markdown is like html not a programming language, but a markup language, hence the name. That's also what I'm writing in right now. The last one is layouts, this is for how hugo is using the content files and making them to pages. And then I just made some docker containers that could run, build the page and serve it with nginx. And I also have one container running Cusdis, which is a commenting system. You can try to add a comment at the bottom. And then me and my dad did spend a weekend setting up a reverse proxy, so the requests get send to the raspberry pi. But that's it!
+So the assets directory is the one you put image/css/javascript files, these files can then be processed by you, fx you could bundle all your js and css together so they are one big file. If you instead have files like robots.txt that's not supposed to be processed and just copied over to the public directory, you should put those files in the static directory.
+
+The content directory is for the content that's showing on the page. This is written in markdown files, if you've ever seen a git repo, you've probably seen a README.md file, which is just markdown. Markdown is like html not a programming language, but a markup language, hence the name. That's also what I'm writing in right now.
+
+The last one is layouts, this is for how hugo is using the content files and making them to pages. And then I just made some docker containers that could run, build the page and serve it with nginx. And I also have one container running Cusdis, which is a commenting system. You can try to add a comment at the bottom. And then me and my dad did spend a weekend setting up a reverse proxy, so the requests get send to the raspberry pi. But that's it!
