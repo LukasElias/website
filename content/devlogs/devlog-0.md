@@ -7,7 +7,7 @@ Hello everyone, this is the first devlog I made on my website. In this devlog I'
 
 ## Why did I make this website?
 
-So first of all, I would recommend you checked out this page called [about](/about).
+So first of all, I would recommend you checked out this page called [about](/about/).
 
 So now I guess you got an idea of who I am. Well that's great, let me tell you why I made this website now. So it all started in my backyard, when I was around 12 [i think](https://open.spotify.com/track/4f8Mh5wuWHOsfXtzjrJB3t?si=aca5a91e30e54199), and jumped on our trampoline. On the trampoline I got a great idea. I wanted to make a game (I could code a bit back then, since I'd learned some programming with the micro:bit and Makecode if you know those), a game about jumping, jumping with a trampoline. So what do you think of that idea? You probably need to know a bit more about the idea right? You can hear that in future devlogs. But that was when it all started. So now what does this have to do with the website thing you might ask (you asked that right? Well you get an answer now).
 

@@ -12,11 +12,11 @@ summaryLength = 5
 	weight = 1
 [[menu.main]]
 	name = 'Devlogs'
-	url = '/devlogs'
+	url = '/devlogs/'
 	weight = 2
 [[menu.main]]
 	name = 'About'
-	url = '/about'
+	url = '/about/'
 	weight = 3
 
 [[menu.footer]]

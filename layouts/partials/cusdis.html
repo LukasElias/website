@@ -6,3 +6,5 @@
 	data-page-title="{{ .Title }}"
 ></div>
 <script async defer src="https://cusdis.lundmajland.dk/js/cusdis.es.js"></script>
+{{ $js_cusdis := resources.Get "js/cusdis.js" | resources.Minify | resources.Fingerprint }}
+<script src="{{ $js_cusdis.Permalink | relURL }}"></script> 

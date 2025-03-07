@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /css
+Disallow: /js
 
 Sitemap: https://lukaselias.lundmajland.dk/sitemap.xml

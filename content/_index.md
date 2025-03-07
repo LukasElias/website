@@ -4,6 +4,6 @@ title = "I'm Lukas Elias"
 layout = "_index"
 +++
 
-This is my website, the place where all my projects is gonna be (hopefully). I'm planning on making a game, and putting [devlogs](/devlogs) up here.
+This is my website, the place where all my projects is gonna be (hopefully). I'm planning on making a game, and putting [devlogs](/devlogs/) up here.
 
-If you wanna know more about me just read [about](/about). It's a good starting point.
+If you wanna know more about me just read [about](/about/). It's a good starting point.

@@ -19,7 +19,7 @@ services:
       - hugo
     restart: always
   cusdis:
-    image: lukaselias/cusdis-arm-special:latest
+    image: lukaselias/cusdis-arm:latest
     container_name: cusdis
     env_file: 
       - secrets.env
@@ -27,4 +27,5 @@ services:
       - "3000:3000"
     volumes:
       - ./cusdis_data:/data
+      - ./cusdis/next.config.js:/app/next.config.js
     restart: always
