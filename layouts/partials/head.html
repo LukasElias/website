@@ -6,10 +6,10 @@
 	<title>{{ .Site.Title }}</title>
 {{ end }}
 
-{{ $main_styles := resources.Get "css/main.css" }}
+{{ $css_main := resources.Get "css/main.css" }}
 {{ $css_reset := resources.Get "css/reset.css" }}
 
-{{ $styles := slice $main_styles $css_reset | resources.Concat "css/bundle.css" | resources.Minify | resources.Fingerprint }}
+{{ $styles := slice $css_main $css_reset | resources.Concat "css/bundle.css" | resources.Minify | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $styles.Permalink | relURL }}">
 
 {{ $js_theme := resources.Get "js/theme.js" }}

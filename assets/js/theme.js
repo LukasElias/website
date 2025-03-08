@@ -5,6 +5,11 @@ const handleThemeSelection = (event) => {
 	const theme = event.target.getAttribute('value');
 	document.documentElement.setAttribute('data-selected-theme', theme);
 
+    const iframe = document.querySelector("#cusdis_thread iframe");
+    if (iframe) {
+		iframe.srcdoc = iframe.srcdoc.replace(/<html data-selected-theme=".*"/, `<html data-selected-theme="${theme}"`);
+	}
+
 	localStorage.setItem('selected-theme', theme);
 }
 

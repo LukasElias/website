@@ -175,7 +175,7 @@ main > article > :not(header) {
 	margin: 0.5em;
 }
 
-.dropdown input[type=radio]:has(+label) {
+.dropdown input[type=radio]:has( + label) {
 	display: none;
 }
 
