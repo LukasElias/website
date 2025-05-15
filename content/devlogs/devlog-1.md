@@ -1,6 +1,5 @@
 +++
 date = '2025-04-19T21:35:48+02:00'
-draft = true
 title = 'Devlog 1 - Finish up'
 +++
 
@@ -23,16 +22,22 @@ Is there a better way to find out which projects to finish than writing them all
 
 So this is basically those, most of them I will do over the next few months. But the game which is called A New Planet btw, is gonna be my main project with the other ones being side projects I'll do when I'm bored of writing the game.
 
-The main thing I'll focus on for this devlog is the cube, which I'll have this and a few future devlogs about. Then I'll also make some devlogs about the game and the media player, 'cause they are the other ones I have most motivation with rn, but I'll also cover the other stuff in other devlogs.
+The main thing I'll focus on for this devlog is the cube, which I'll have this and a few future devlogs about. Then I'll also make some devlogs about the game and maybe the media player, 'cause they're the other ones I have most motivation with rn, but I'll also cover the other stuff in other devlogs (hopefully).
 
 ## The CUBE
 
-Now, you might be asking yourself, or me, what exactly is this CUBE? And you're actually only gonna ask that, if you're one of those people who don't read the paranthesis. These: (if you're reading this, why did they make it so hard to spell?)
+Now, you might be asking yourself, or me, what exactly is this CUBE? And you're actually only gonna ask that, if you're one of those people who don't read the paranthesis. These: (if you're reading this, you'd know what the CUBE is?)
 
-But the CUBE, is a big (you should call it big) box. It's 18cm x 18cm x 18cm in size, and yes I had to write cm after every single number there, or else it wouldn't make sense.
+But the CUBE, is a big box. It's 18cm x 18cm x 18cm in size.
 
 And actually you can get a picture of it:
 
-![A white box, called the CUBE should've shown here](/images/theCUBE.jpg)
+![Actually nevermind, the picture can't load](/images/theCUBE.jpg)
 
-So it's a CUBE that is supposed to look like a [minecraft jukebox](https://minecraft.wiki/w/Jukebox). Which it doesn't right now, but I'll have to paint it later. First of all it needs to have a speaker and be functional.
+So it's a CUBE that is supposed to look like a [minecraft jukebox](https://minecraft.wiki/w/Jukebox). Which it doesn't right now, but I'll have to paint it later. First of all it needs to have a speaker and be functional. So I gotta get the parts.
+
+## A lil' update
+
+Soooo, I wrote this devlog like a month ago from rn, and i never finished it or made it public, so it's actually just been sitting and collecting dust, for a whole month. Which is really ironic since I made this devlog about me finishing up my projects 😅
+
+And I still haven't made much progress with finding any of the parts for the speaker yet. If I'm gonna be completely honest I also spend most of the time since I wrote about the CUBE first making my game, which I'll probably just follow up with a devlog here later. So you all can stay updated if anyone is reading. So yeah, I don't really have much to say about this, so see you another time I guess.
